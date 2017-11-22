@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="advice1">完美</string>
+    <string name="advice2">吃太少</string>
+    <string name="advice3">多吃一點</string>
+</resources>

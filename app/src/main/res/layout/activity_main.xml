@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <FrameLayout android:layout_height="fill_parent" android:layout_width="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:orientation="vertical" android:id="@+id/main">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="@string/bmi_height" android:textSize="25sp"/>
+
+
+    -<EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/height" android:textSize="25sp" android:inputType="number|phone">
+
+    <requestFocus/>
+
+</EditText>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="@string/bmi_weight" android:textSize="25sp"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/weight" android:textSize="25sp" android:inputType="number"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/submit" android:text="@string/bmi_btn" android:textSize="25sp"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/result" android:textSize="25sp"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/suggest" android:textSize="25sp"/>
+
+</LinearLayout>
+
+
+    -<LinearLayout android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="horizontal" android:id="@+id/description" android:gravity="center" android:background="#7000">
+
+
+    -<FrameLayout android:layout_height="wrap_content" android:layout_width="wrap_content">
+
+    <ImageView android:layout_height="100dp" android:layout_width="100dp" android:id="@+id/imageView1" android:src="@drawable/tip_dark"/>
+
+    <ImageView android:layout_height="100dp" android:layout_width="100dp" android:id="@+id/imageView2" android:src="@drawable/tip_bright"/>
+
+</FrameLayout>
+
+
+    -<LinearLayout android:layout_height="wrap_content" android:layout_width="150dp" android:orientation="vertical">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/tipText1" android:text="提示1" android:textSize="40sp" android:textColor="#FFF" android:layout_gravity="center_horizontal"/>
+
+    <!-- 一開始先隱藏 tipText2 -->
+
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/tipText2" android:text="提示2" android:textSize="40sp" android:textColor="#FFF" android:layout_gravity="center_horizontal" android:visibility="invisible"/>
+
+    <!-- 一開始先隱藏 tipText3 -->
+
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/tipText3" android:text="提示3" android:textSize="40sp" android:textColor="#FFF" android:layout_gravity="center_horizontal" android:visibility="invisible"/>
+
+</LinearLayout>
+
+</LinearLayout>
+
+</FrameLayout>

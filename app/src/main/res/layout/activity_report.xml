@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.bmi.Report"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/result"
+        style="@style/mystyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="64dp"
+        android:layout_weight="0.06" />
+
+    <TextView
+        android:id="@+id/suggest"
+        style="@style/mystyle"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_weight="0.05"
+        android:text=""
+        android:textColor="@color/colorAccent"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="240dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/homepage" />
+    <!--<TextView-->
+        <!--android:id="@+id/textView3"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="第二個畫面report"-->
+        <!--tools:layout_editor_absoluteY="178dp"-->
+        <!--tools:layout_editor_absoluteX="126dp" />-->
+</LinearLayout>
